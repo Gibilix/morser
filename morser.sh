@@ -8,6 +8,6 @@ case $1 in
 	echo $2 | morsen.py
 	;;
 *)
-	echo "Usage: morse [OPTION]... PATTERN"
+	echo "Usage: morse [OPTION] PATTERN"
 	;;
 esac
